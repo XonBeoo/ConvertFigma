@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    background-color: #FFFFFF;
+    height: 84px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-nav {
+    gap: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.badge-custom {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #131728;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 1;
+    min-width: 18px;
+    text-align: center;
+    padding: 3px;
+}
+
+.icon-header a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.logo {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+
+
+
+/* ----------------- footer -------------------*/
+.footer-top {
+    padding-top: 120px;
+    padding-right: 150px;
+    padding-bottom: 120px;
+    padding-left: 150px;
+    border-top-width: 1px;
+    background: #F6F6F8;
+
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h4 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.newsletter p {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.newsletter .input-email {
+    border: 1px solid #CDD0DD;
+    width: 420px;
+    height: 54px;
+    border-width: 1px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    background: #F6F6F8;
+
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+
+.icon-left,
+.icon-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-logo {
+    width: 208;
+    height: 21;
+
+}
+
+.footer-bottom {
+    padding-right: 150px;
+    padding-left: 150px;
+    border-top-width: 1px;
+    background-color: #FFFFFF;
+
+}
