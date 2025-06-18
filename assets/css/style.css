@@ -5,10 +5,6 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1440px;
-}
-
 
 /*------------------ header ------------------------*/
 
@@ -58,7 +54,7 @@ body {
 
 .navbar-nav {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -116,6 +112,8 @@ body {
     overflow: hidden;
 }
 
+.container-slider {}
+
 .main-carousel {
     width: 100%;
 }
@@ -133,12 +131,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 5vw;
+
 }
 
 .slider-content {
     position: absolute;
-    left: 5vw;
+    left: 269px;
     z-index: 2;
     max-width: 600px;
     display: flex;
@@ -267,11 +265,6 @@ body {
 
 /* ------------------ content --------------------*/
 
-.container {
-    max-width: 1440px;
-    box-sizing: border-box;
-}
-
 .section-title {
     font-weight: 500;
     font-size: 36px;
@@ -279,42 +272,100 @@ body {
     letter-spacing: 0%;
     text-align: center;
     vertical-align: bottom;
+
 }
 
 
 /* ---- section product-categories ---- */
+
+.categories-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
 
 .product-categories {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+.product-categories .container-categories {
+    max-width: 1440px;
+    margin: auto;
+}
+
 .product-categories .section-title {
-    margin-bottom: 40px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+    width: 100%;
 }
 
-.category-card img {
+.categories-img {
+    width: 345px;
+    height: 345px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.categories-img .img-shoulder {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    width: 300px;
-    height: auto;
+    object-position: top center;
+    border-radius: 50%;
 }
 
-.section-content h3 {
+.categories-img .img-tote {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center -82px;
+    border-radius: 50%;
+}
+
+.categories-img .img-hand {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 1px top;
+    border-radius: 50%;
+}
+
+.categories-img .img-crossbody {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 1px top;
+    border-radius: 50%;
+}
+
+.categories-card {
+    text-align: center;
+}
+
+.categories-text h3 {
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    white-space: nowrap;
 }
 
-.section-content h4 {
+.categories-text h4 {
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0%;
+    white-space: nowrap;
 }
 
-/* ---- section2 new-arrivals ---- */
+/* ---- section new-arrivals ---- */
 
 
 
