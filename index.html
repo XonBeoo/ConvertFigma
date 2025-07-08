@@ -86,7 +86,7 @@
                             stroke="#131728" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </a>
-                <a href="#favorite">
+                <a class="favorite" href="#favorite">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"
                         class="__web-inspector-hide-shortcut__">
                         <path
@@ -95,7 +95,7 @@
                     </svg>
                     <span class="badge-custom">3</span>
                 </a>
-                <a href="#shopping-cart">
+                <a class="cart" href="#shopping-cart">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                         <path
                             d="M9.5 22.5C10.0523 22.5 10.5 22.0523 10.5 21.5C10.5 20.9477 10.0523 20.5 9.5 20.5C8.94772 20.5 8.5 20.9477 8.5 21.5C8.5 22.0523 8.94772 22.5 9.5 22.5Z"
@@ -110,9 +110,74 @@
                     <span class="badge-custom">3</span>
                 </a>
             </div>
-
         </div>
+        <!-- Offcanvas reponsive mobile -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div class="mobile-icons">
+                    <a href="#favorite" class="mobile-icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M21.3401 5.10987C20.8294 4.59888 20.2229 4.19352 19.5555 3.91696C18.888 3.64039 18.1726 3.49805 17.4501 3.49805C16.7276 3.49805 16.0122 3.64039 15.3448 3.91696C14.6773 4.19352 14.0709 4.59888 13.5601 5.10987L12.5001 6.16987L11.4401 5.10987C10.4084 4.07818 9.00915 3.49858 7.55012 3.49858C6.09109 3.49858 4.69181 4.07818 3.66012 5.10987C2.62843 6.14156 2.04883 7.54084 2.04883 8.99987C2.04883 10.4589 2.62843 11.8582 3.66012 12.8899L4.72012 13.9499L12.5001 21.7299L20.2801 13.9499L21.3401 12.8899C21.8511 12.3791 22.2565 11.7727 22.533 11.1052C22.8096 10.4378 22.9519 9.72236 22.9519 8.99987C22.9519 8.27738 22.8096 7.56198 22.533 6.89452C22.2565 6.22706 21.8511 5.62063 21.3401 5.10987V5.10987Z"
+                                stroke="#131728" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="badge-custom">3</span>
+                    </a>
+                    <a href="#shopping-cart" class="mobile-icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M9.5 22.5C10.0523 22.5 10.5 22.0523 10.5 21.5C10.5 20.9477 10.0523 20.5 9.5 20.5C8.94772 20.5 8.5 20.9477 8.5 21.5C8.5 22.0523 8.94772 22.5 9.5 22.5Z"
+                                stroke="#131728" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M20.5 22.5C21.0523 22.5 21.5 22.0523 21.5 21.5C21.5 20.9477 21.0523 20.5 20.5 20.5C19.9477 20.5 19.5 20.9477 19.5 21.5C19.5 22.0523 19.9477 22.5 20.5 22.5Z"
+                                stroke="#131728" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M1.5 1.5H5.5L8.18 14.89C8.27144 15.3504 8.52191 15.764 8.88755 16.0583C9.25318 16.3526 9.7107 16.509 10.18 16.5H19.9C20.3693 16.509 20.8268 16.3526 21.1925 16.0583C21.5581 15.764 21.8086 15.3504 21.9 14.89L23.5 6.5H6.5"
+                                stroke="#131728" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="badge-custom">3</span>
+                    </a>
+                </div>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="mobile-nav">
+                    <ul class="mobile-nav-list">
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="#Demo">Demo</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="#Shop">Shop</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="#Products">Products</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="#Sale">Sale</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="#Pages">Pages</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="#Features">Features</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="#Blog">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!--  Toggle button -->
+        <button class="mobile-menu-toggle d-md-none" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
     </header>
+
     <section class="slider"
         data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "prevNextButtons": false, "pageDots": true, "autoPlay": 3000, "pauseAutoPlayOnHover": true, "fade": true }'>
         <div class="carousel-cell">
@@ -159,6 +224,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <section class="product-categories">
@@ -223,8 +289,321 @@
                 <h2 class="title">New Arrivals</h2>
                 <span class="section-subtitle">Here's some of our most popular products people are in love with.</span>
             </div>
-            <div class="carousel"
-                data-flickity='{ "groupCells": 4, "prevNextButtons": false, "pageDots": true, "wrapAround": true }'>
+            <div class="carousel">
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-new">New</span>
+                            <img src="./assets/image/products/herman-shoulder-bag-1.jpg" alt="" class="img-main">
+                            <img src="./assets/image/products/herman-shoulder-bag-2.jpg" alt="" class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Herman Shoulder Bag</h3>
+                            <ins class="price">$65.00</ins>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-discount">-30%</span>
+                            <img src="./assets/image/products/jana-hollow-out-shoulder-bag-1.jpg" alt=""
+                                class="img-main">
+                            <img src="./assets/image/products/jana-hollow-out-shoulder-bag-2.jpg" alt=""
+                                class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Jana Hollow Out Shoulder Bag</h3>
+                            <del>$60.00</del>
+                            <ins class="price-sale">$45.00</ins>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-discount">-30%</span>
+                            <span class="badge-new">New</span>
+                            <img src="./assets/image/products/elise-top-handle-bag-1.jpg" alt="" class="img-main">
+                            <img src="./assets/image/products/elise-top-handle-bag-2.jpg" alt="" class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Elise Top Handle Bag</h3>
+                            <del>$105.07</del>
+                            <ins class="price-sale">$95.07</ins>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-new">New</span>
+                            <img src="./assets/image/products/mila-shoulder-bag-1.jpg" alt="" class="img-main">
+                            <img src="./assets/image/products/mila-shoulder-bag-2.jpg" alt="" class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Milla Shoulder Bag</h3>
+                            <ins class="price">$75.00</ins>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-new">New</span>
+                            <img src="./assets/image/products/herman-shoulder-bag-1.jpg" alt="" class="img-main">
+                            <img src="./assets/image/products/herman-shoulder-bag-2.jpg" alt="" class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Herman Shoulder Bag</h3>
+                            <ins class="price">$65.00</ins>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-discount">-30%</span>
+                            <img src="./assets/image/products/jana-hollow-out-shoulder-bag-1.jpg" alt=""
+                                class="img-main">
+                            <img src="./assets/image/products/jana-hollow-out-shoulder-bag-2.jpg" alt=""
+                                class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Jana Hollow Out Shoulder Bag</h3>
+                            <del>$60.00</del>
+                            <ins class="price-sale">$45.00</ins>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-discount">-30%</span>
+                            <span class="badge-new">New</span>
+                            <img src="./assets/image/products/elise-top-handle-bag-1.jpg" alt="" class="img-main">
+                            <img src="./assets/image/products/elise-top-handle-bag-2.jpg" alt="" class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Elise Top Handle Bag</h3>
+                            <del>$105.07</del>
+                            <ins class="price-sale">$95.07</ins>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="new-arrivals-card">
+                        <div class="new-arrivals-img">
+                            <span class="badge-new">New</span>
+                            <img src="./assets/image/products/mila-shoulder-bag-1.jpg" alt="" class="img-main">
+                            <img src="./assets/image/products/mila-shoulder-bag-2.jpg" alt="" class="img-hover">
+                            <button class="btn-add-to-cart">Add To Cart</button>
+                            <div class="product-actions">
+                                <button class="btn-action btn-wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="btn-action btn-quickview">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.39997C18.82 5.79997 15.53 3.71997 12 3.71997C8.47003 3.71997 5.18003 5.79997 2.89003 9.39997C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                            stroke="#131728" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="new-arrivals-text">
+                            <h3>Milla Shoulder Bag</h3>
+                            <ins class="price">$75.00</ins>
+                        </div>
+                    </div>
+                </div>
                 <div class="carousel-cell">
                     <div class="new-arrivals-card">
                         <div class="new-arrivals-img">
@@ -733,7 +1112,7 @@
         <div class="container">
             <div class="section-title">
                 <h2 class="title">Trending Products</h2>
-                <p class="section-subtitle">Here’s some of our most popular products people are in love with.</p>
+                <p class="section-subtitle">Here's some of our most popular products people are in love with.</p>
             </div>
             <div class="hot-products-list">
                 <!-- product1 -->
@@ -1046,11 +1425,32 @@
                     <h2>Featured Items</h2>
                 </div>
                 <button class="featured-nav-button prev">
-                    <img src="./assets/image/arrow-left.png" alt="">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 1.875C26.895 1.875 34.125 9.105 34.125 18C34.125 26.895 26.895 34.125 18 34.125C9.105 34.125 1.875 26.895 1.875 18C1.875 9.105 9.105 1.875 18 1.875ZM18 31.875C25.65 31.875 31.875 25.65 31.875 18C31.875 10.35 25.65 4.125 18 4.125C10.35 4.125 4.125 10.35 4.125 18C4.125 25.65 10.35 31.875 18 31.875Z"
+                            fill="#7C99A9" />
+                        <path
+                            d="M14.25 16.875H23.25C23.865 16.875 24.375 17.385 24.375 18C24.375 18.615 23.865 19.125 23.25 19.125H14.25C13.635 19.125 13.125 18.615 13.125 18C13.125 17.385 13.635 16.875 14.25 16.875Z"
+                            fill="#7C99A9" />
+                        <path
+                            d="M17.2498 12.3748C17.5348 12.3748 17.8198 12.4798 18.0448 12.7048C18.4798 13.1398 18.4798 13.8598 18.0448 14.2948L14.3398 17.9998L18.0448 21.7048C18.4798 22.1398 18.4798 22.8598 18.0448 23.2948C17.6098 23.7298 16.8898 23.7298 16.4548 23.2948L11.9548 18.7948C11.5198 18.3598 11.5198 17.6398 11.9548 17.2048L16.4548 12.7048C16.6798 12.4798 16.9648 12.3748 17.2498 12.3748Z"
+                            fill="#7C99A9" />
+                    </svg>
+
 
                 </button>
                 <button class="featured-nav-button next">
-                    <img src="./assets/image/arrow-right.png" alt="">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 34.125C9.105 34.125 1.875 26.895 1.875 18C1.875 9.105 9.105 1.875 18 1.875C26.895 1.875 34.125 9.105 34.125 18C34.125 26.895 26.895 34.125 18 34.125ZM18 4.125C10.35 4.125 4.125 10.35 4.125 18C4.125 25.65 10.35 31.875 18 31.875C25.65 31.875 31.875 25.65 31.875 18C31.875 10.35 25.65 4.125 18 4.125Z"
+                            fill="#7C99A9" />
+                        <path
+                            d="M21.75 19.125H12.75C12.135 19.125 11.625 18.615 11.625 18C11.625 17.385 12.135 16.875 12.75 16.875H21.75C22.365 16.875 22.875 17.385 22.875 18C22.875 18.615 22.365 19.125 21.75 19.125Z"
+                            fill="#7C99A9" />
+                        <path
+                            d="M18.7502 23.6252C18.4652 23.6252 18.1802 23.5202 17.9552 23.2952C17.5202 22.8602 17.5202 22.1402 17.9552 21.7052L21.6602 18.0002L17.9552 14.2952C17.5202 13.8602 17.5202 13.1402 17.9552 12.7052C18.3902 12.2702 19.1102 12.2702 19.5452 12.7052L24.0452 17.2052C24.4802 17.6402 24.4802 18.3602 24.0452 18.7952L19.5452 23.2952C19.3202 23.5202 19.0352 23.6252 18.7502 23.6252Z"
+                            fill="#7C99A9" />
+                    </svg>
 
                 </button>
                 <div class="featured-slider carousel"
@@ -1425,6 +1825,8 @@
 
     <!-- Flickity Slide -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
